@@ -1,0 +1,32 @@
+JAVA PROGRAM SOLUTION:
+
+
+public class VaultDoor3Sol {
+
+    public static void main(String args[]){
+
+
+        char[] buffer = new char[32];
+
+        String code = "jU5t_a_sna_3lpm18g947_u_4_m9r54f";
+        int i;
+        for (i=0; i<8; i++) {
+            buffer[i] = code.charAt(i);
+        }
+        for (i=15; i>=8; i--) {
+            buffer[i] = code.charAt(23-i);
+        }
+        for (i=30; i>=16; i-=2) {
+            buffer[i] = code.charAt(46-i);
+        }
+        for (i=31; i>=17; i-=2) {
+            buffer[i] = code.charAt(i);
+        }
+        
+        
+        String s = new String(buffer);
+        System.out.println(s);
+    }
+    
+}
+
