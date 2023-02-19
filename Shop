@@ -1,0 +1,16 @@
+Connected to the remote port.
+While playing around with the values I noticed that one can purchase any amount of a particular thing, as long as they have the coins to buy one
+of it and as long as its greater than or equal to the quantity of the product available. The number of coins would just become negative.
+So I tried giving negative numbers as input for quantity to be purchased, and it worked, got sufficient coins to purchase the flag.
+Got the flag as an array of numbers which i figured out were ascii numbers of letters.
+Wrote the following python code to decode it:
+
+line = ""
+a = [112, 105, 99, 111, 67, 84, 70, 123, 98, 52, 100, 95, 98, 114, 111, 103, 114, 97, 109, 109, 101, 114, 95, 57, 99, 49, 49, 56, 98, 98, 102, 125]
+for i in a:
+    
+    print(chr(i), end="")
+
+
+
+
