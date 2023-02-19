@@ -1,0 +1,16 @@
+Opened the powerpoint file on powerpoint.
+Found nothing but "Not the flag" text on the 37th slide.
+Read that converting a ppt file to a zip file and then unzipping it helps analyse it. 
+So used wget to get the file on the webshell.
+Renamed the file to ppt.zip using mv 
+Unzipped using unzip command.
+Went through all files in all directories using : for i in $(ls); do file ./$i ; done;
+Found a file named 'hidden' under the slidesMaster directory.
+After displaying the file the text looked like base64 coded.
+Thus wrote the following command to decode it(-d) ignoring the non letter characters(-i):
+Obtain the flag.
+
+
+
+
+
