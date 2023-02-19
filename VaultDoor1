@@ -1,0 +1,4 @@
+To solve this level, I used nano to create a text file on the webshell and pasted the code from the problem in it.
+Sorted the file using sort.
+Manually figured out the code based on the index of every character.
+
