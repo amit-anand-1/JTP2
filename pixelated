@@ -1,0 +1,7 @@
+This level uses the concepts of Visual Cryptography.
+To solve this I used a program similar to photoshop called clip studio paint.
+Layered the 2 images above each other.
+Set the blending mode of the top layer to "hard mix" so that its transparent pixels are viewed as transparent.
+Added a layer with black colour and adjusted its opacity until the flag was clear.
+
+
