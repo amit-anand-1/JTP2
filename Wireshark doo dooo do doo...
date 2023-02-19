@@ -1,0 +1,11 @@
+Opened the pcapng file using wireshark.
+Export Object> HTTP Object> Filter: text/html
+Saved the file on desktop. 
+The file contained the following code:
+Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}
+
+Recognized this is rot13 encoded and decoded it on the webshell using:
+cat code.txt | tr [a-mn-zA-MN-Z] [n-za-mN-ZA-M]
+
+Got the flag.
+
